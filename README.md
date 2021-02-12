@@ -6,4 +6,27 @@ The purpose of this analysis was to support the Pewlett Hackard organization in 
 
 ## Results
 
+- Packard Hewlett has 78155 employees nearling retirement age, 62173 of which are in a Senior, Leader or Manager role.
+- 74% of employees reaching retirement age are either Senior Engineers or Senior Staff
+- 402 Senior Engineers and 281 Senior Staff that can support in the Mentorship Program as these new positions are filled
+- No Managers meet eligibility for the Mentorship Program
 
+## Summary
+- 78155 roles will need to be filled
+- very strategic with SE and SS because though they have many mentors, they are filling the most roles
+- this could be an issue with the manager program
+
+Additional Query - Planning Ahead for Manager Mentors
+     
+    SELECT DISTINCT ON (e.emp_no) e.emp_no, e.first_name, e.last_name, e.birth_date,
+            de.from_date, de.to_date, t.title
+        INTO future_mentorship_eligibility
+        FROM employees as e
+        JOIN dept_emp as de
+          ON (e.emp_no=de.emp_no)
+        JOIN titles as t
+         ON (t.emp_no=e.emp_no)
+        WHERE (de.to_date='9999-01-01')
+          AND e.birth_date BETWEEN '1960-01-01' AND '1965-12-31'
+          AND (t.title='Manager')
+        ORDER BY e.emp_no;
