@@ -30,3 +30,5 @@ Additional Query - Planning Ahead for Manager Mentors
           AND e.birth_date BETWEEN '1960-01-01' AND '1965-12-31'
           AND (t.title='Manager')
         ORDER BY e.emp_no;
+
+Upcoming Retirement for the next 10 years to create a strong pipeline plan
