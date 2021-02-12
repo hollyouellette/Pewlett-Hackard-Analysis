@@ -16,7 +16,25 @@ The purpose of this analysis was to support the Pewlett Hackard organization in 
 - very strategic with SE and SS because though they have many mentors, they are filling the most roles
 - this could be an issue with the manager program
 
-Additional Query - Planning Ahead for Manager Mentors
+### Additional Queries
+
+In addition to the analysis that was performed, additional queries could be used to help Pewlett Hackard plan for the upcoming "silver tsunami" in several ways.
+
+**First**, I would recommend builing a query to extend the Mentorship Program eligibility for the Manager title specifically. With two upcoming retirements and no eligible employee's to build the employee pipeline as mentors, it would be wise to adjust the parameters to ensure that there is strong future-planning in place for this role. 
+
+<img src="https://github.com/hollyouellette/Pewlett-Hackard-Analysis/blob/main/future_metorship_manager_query.png">
+
+With this query, we are able to include employees with birthdays extending forward 5 additional years for the manager title specifically. By performing this, Pewlett Hackard's mentorship program would include 10 potential mentors to build their Manager pipeline and successfully future-proof this department.
+
+<img src="https://github.com/hollyouellette/Pewlett-Hackard-Analysis/blob/main/future_mentoryship_eligibility.png">
+<br/><br/<br/>
+<img src="https://github.com/hollyouellette/Pewlett-Hackard-Analysis/blob/main/unique_upcoming_retirement.png" align=right width=300>**Second**, I would recommend building out a strategy to address the upcoming retirements and subsequent role vacancies over the next 10 years. This could be accomplished by using a query to: 
+     - Isolate the employees who were born between 1956 to 1966 and sorting them by title and birthday.
+     - Next, to ensure that each imployee is counted only once, setting the query to be distinct on the employee number
+     - Producing an employee count by title to visualize how many employees each department should be planning to replace due to retirement over the next 10 years. 
+     
+    
+<img src="https://github.com/hollyouellette/Pewlett-Hackard-Analysis/blob/main/next_ten_yrs_query.png">
      
     SELECT DISTINCT ON (e.emp_no) e.emp_no, e.first_name, e.last_name, e.birth_date,
             de.from_date, de.to_date, t.title
