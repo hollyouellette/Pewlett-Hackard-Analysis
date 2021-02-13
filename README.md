@@ -6,10 +6,12 @@ The purpose of this analysis was to support the Pewlett Hackard organization in 
 
 ## Results
 
-- Packard Hewlett has 78155 employees nearling retirement age, 62173 of which are in a Senior, Leader or Manager role.
-- 74% of employees reaching retirement age are either Senior Engineers or Senior Staff
-- 402 Senior Engineers and 281 Senior Staff that can support in the Mentorship Program as these new positions are filled
-- No Managers meet eligibility for the Mentorship Program
+The analaysis of Pewlett Hackard's employee data yielded four major results:
+
+- The retiring_titles.csv showcases that Packard Hewlett has 78,155 employees nearling retirement age. The vast majority of these employeess are in a **Senior, Leader** or **Manager Role**, representint 62,173 of total number of employees reaching retirement age. 
+- 74% of Pewlett Hackard's employees reaching retirement age are either Senior Engineers or Senior Staff.
+- The mentorship_eligibility.csv indicates that there are 402 Senior Engineers and 281 Senior Staff that can support in the Mentorship Program, which will be crutial knowing that these two Job Titles make up nearly 3/4 of as positions that will require filling due to the Silver Tsunami.
+- Based on this analysis, there are no Managers meet eligibility for the Mentorship Program.
 
 ## Summary
 - 78155 roles will need to be filled
