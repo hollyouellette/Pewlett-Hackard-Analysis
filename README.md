@@ -28,18 +28,18 @@ In addition to the analysis that was performed in this assignment, additional qu
 
    **First**, I would recommend building a query to widen the age parameters of the Mentorship Program eligibility for the Manager title specifically. With two upcoming retirements and no eligible employees to build the Manager pipeline as mentors, it would be wise to adjust the parameters to ensure that there is strong future-planning in place for this role. <br/><br/>
 
-<img src="https://github.com/hollyouellette/Pewlett-Hackard-Analysis/blob/main/future_metorship_manager_query.png" width=500 align=left>
+<img src="https://github.com/hollyouellette/Pewlett-Hackard-Analysis/blob/main/Analysis/future_metorship_manager_query.png" width=500 align=left>
 
 With this query, for the Manager title we have widened the parameters of employees eligibility by 5 years. By performing this, Pewlett Hackard's Mentorship Program would include 10 eligible mentors to build their Manager pipeline and successfully future-proof this department, as seen in the table below.<br/><br/><br/><br/>
 
-<img src="https://github.com/hollyouellette/Pewlett-Hackard-Analysis/blob/main/future_mentoryship_eligibility.png" width:800 align:center>
+<img src="https://github.com/hollyouellette/Pewlett-Hackard-Analysis/blob/main/Analysis/future_mentoryship_eligibility.png" width:800 align:center>
 <br/><br/>
 
 
 
 **Second**, I would recommend building out a strategy to address the upcoming retirements and subsequent role vacancies over the next 10 years and beyond.<br/>
 
-<img src="https://github.com/hollyouellette/Pewlett-Hackard-Analysis/blob/main/next_ten_yrs_query.png" width=500 align=left>
+<img src="https://github.com/hollyouellette/Pewlett-Hackard-Analysis/blob/main/Analysis/next_ten_yrs_query.png" width=500 align=left>
 These queries completes the following analysis:<br/>
    <UL>
    <LI> Isolating the employees who were born between 1956 to 1966 and sorting them by title and birthday.
@@ -47,7 +47,7 @@ These queries completes the following analysis:<br/>
    <LI> Finally, a query is written to provide an employee count by title to visualize how many employees each department should be developing a plan to replace due to retirement over the next 10 years. 
    </UL>     
 
-<img src="https://github.com/hollyouellette/Pewlett-Hackard-Analysis/blob/main/unique_upcoming_retirement.png" align=right width=200> <br/> 
+<img src="https://github.com/hollyouellette/Pewlett-Hackard-Analysis/blob/main/Analysis/unique_upcoming_retirement.png" align=right width=200> <br/> 
 The output for these queries showcases that Pewlett Hackard would be wise to start planning for the next 10 years, knowing that they can anticipate losing well over 100,000 employees from their workforce as a result of retirement. 
 
     
