@@ -40,7 +40,7 @@ With this query, for the Manager title we have widened the parameters of employe
 **Second**, I would recommend building out a strategy to address the upcoming retirements and subsequent role vacancies over the next 10 years and beyond.<br/>
 
 <img src="https://github.com/hollyouellette/Pewlett-Hackard-Analysis/blob/main/Analysis/next_ten_yrs_query.png" width=500 align=left>
-These queries completes the following analysis:
+These queries completes the following analysis:<br/>
 
 
    <UL>
@@ -49,7 +49,7 @@ These queries completes the following analysis:
    <LI> Finally, a query is written to provide an employee count by title to visualize how many employees each department should be developing a plan to replace due to retirement over the next 10 years. 
    </UL>     
 
-<img src="https://github.com/hollyouellette/Pewlett-Hackard-Analysis/blob/main/Analysis/unique_upcoming_retirement.png" align=right width=200> <br/> 
+<img src="https://github.com/hollyouellette/Pewlett-Hackard-Analysis/blob/main/Analysis/unique_upcoming_retirement.png" align=right width=200> <br/> <br/>
 The output for these queries showcases that Pewlett Hackard would be wise to start planning for the next 10 years, knowing that they can anticipate losing well over 100,000 employees from their workforce as a result of retirement. 
 
     
