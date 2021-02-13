@@ -34,15 +34,20 @@ With this query,for the Manager title we have widened the parameters of employee
 
 <img src="https://github.com/hollyouellette/Pewlett-Hackard-Analysis/blob/main/future_mentoryship_eligibility.png" width:800 align:center>
 <br/><br/<br/>
-<img src="https://github.com/hollyouellette/Pewlett-Hackard-Analysis/blob/main/unique_upcoming_retirement.png" align=right width=300>
 
-**Second**, I would recommend building out a strategy to address the upcoming retirements and subsequent role vacancies over the next 10 years. This could be accomplished by using a query to: 
+
+
+**Second**, I would recommend building out a strategy to address the upcoming retirements and subsequent role vacancies over the next 10 years. 
+<img src="https://github.com/hollyouellette/Pewlett-Hackard-Analysis/blob/main/next_ten_yrs_query.png" width=500 align=left>
+This could be accomplished by using a query to: 
      - Isolate the employees who were born between 1956 to 1966 and sorting them by title and birthday.
      - Next, to ensure that each imployee is counted only once, setting the query to be distinct on the employee number
      - Producing an employee count by title to visualize how many employees each department should be planning to replace due to retirement over the next 10 years. 
      
     
-<img src="https://github.com/hollyouellette/Pewlett-Hackard-Analysis/blob/main/next_ten_yrs_query.png">
+
+
+<img src="https://github.com/hollyouellette/Pewlett-Hackard-Analysis/blob/main/unique_upcoming_retirement.png" align=right width=300>
      
     
 
