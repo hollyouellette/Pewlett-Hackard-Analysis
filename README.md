@@ -45,8 +45,7 @@ These queries completes the following analysis:<br/>
    <LI> Isolating the employees who were born between 1956 to 1966 and sorting them by title and birthday.
    <LI> Next, to ensure that each employee is counted only once, the query is set to be distinct on the employee number.
    <LI> Fially, a query is written to provide an employee count by title to visualize how many employees each department should be developing a plan to replace due to retirement over the next 10 years. 
-   </UL>    
-<br/><br/>  
+   </UL>     
 
 <img src="https://github.com/hollyouellette/Pewlett-Hackard-Analysis/blob/main/unique_upcoming_retirement.png" align=right width=200> <br/> 
 The output for these queries showcases that Pewlett Hackard would be wise to start planning for the next 10 years, knowing that they can anticipate losing well over 100,000 employees from their workforce as a result of retirement. 
