@@ -26,11 +26,11 @@ The analaysis of Pewlett Hackard's employee data yielded the following four majo
 
 In addition to the analysis that was performed in this assignment, additional queries could be used to help Pewlett Hackard plan for the upcoming "silver tsunami" in a couple of ways.
 
-   **First**, I would recommend builing a query to widen the age parameters of the Mentorship Program eligibility for the Manager title specifically. With two upcoming retirements and no eligible employees to build the Manager pipeline as mentors, it would be wise to adjust the parameters to ensure that there is strong future-planning in place for this role. 
+   **First**, I would recommend builing a query to widen the age parameters of the Mentorship Program eligibility for the Manager title specifically. With two upcoming retirements and no eligible employees to build the Manager pipeline as mentors, it would be wise to adjust the parameters to ensure that there is strong future-planning in place for this role. <br/><br/>
 
 <img src="https://github.com/hollyouellette/Pewlett-Hackard-Analysis/blob/main/future_metorship_manager_query.png" width=500 align=left>
 
-With this query,for the Manager title we have widened the parameters of employees eligibility by 5 years. By performing this, Pewlett Hackard's Mentorship Program would include 10 eligible mentors to build their Manager pipeline and successfully future-proof this department, as seen in the table below.<br/><br/>
+With this query,for the Manager title we have widened the parameters of employees eligibility by 5 years. By performing this, Pewlett Hackard's Mentorship Program would include 10 eligible mentors to build their Manager pipeline and successfully future-proof this department, as seen in the table below.<br/><br/><br/>
 
 <img src="https://github.com/hollyouellette/Pewlett-Hackard-Analysis/blob/main/future_mentoryship_eligibility.png" width:800 align:center>
 <br/><br/<br/>
