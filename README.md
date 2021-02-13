@@ -2,16 +2,16 @@
 
 ## Overview of the Analysis
 
-The purpose of this analysis was to support the Pewlett Hackard organization in organizing and analyzing employee data preceding thousands of their employees reaching retirement age. To plan for this "silver tsunami", Pewlett Hackard is scrubbing through all of their employee data to identify both the employees who will be offered retirement packages as well as the employees nearing retirement age. The employees who are within 10 years of retirement are eligible for a Mentorship Program to support with the turnover of thousands of employees in new roles. The following analysis used SQL to query the existing Database containing employee information dating back as far as these records have been kept for Pewlett Hackard. Based on the employee data, this analysis provides two new csv. files; one detailing the number of retiring employees by title and the other identifying employees eligible for the Mentorship Program based on their birth year. 
+The purpose of this analysis was to support the Pewlett Hackard organization in organizing and analyzing employee data preceding thousands of their employees reaching retirement age. To plan for this "silver tsunami", Pewlett Hackard is scrubbing through all of their employee data to identify both the employees who will be offered retirement packages as well as the employees nearing retirement age. The employees who are within 10 years of retirement are eligible for a Mentorship Program to support with the turnover of thousands of employees into new roles. The following analysis used SQL to query the existing Database containing employee information dating back as far as these records have been kept for Pewlett Hackard. Based on the employee data, this analysis provides two new csv. files; one detailing the number of retiring employees by title and the other identifying employees eligible for the Mentorship Program based on their birth year. 
 
 ## Results
 
 The analysis of Pewlett Hackard's employee data yielded the following four major results:
 
-- The retiring_titles.csv showcases that Packard Hewlett has 78,155 employees nearing retirement age. The vast majority of these employees are in a **Senior, Leader** or **Manager Role**, represent 62,173 of total number of employees reaching retirement age. 
+- The <a href="https://github.com/hollyouellette/Pewlett-Hackard-Analysis/blob/main/Data/retiring_titles.csv">retiring_titles.csv</a> showcases that Packard Hewlett has 78,155 employees nearing retirement age. The vast majority of these employees are in a **Senior, Leader** or **Manager Role**, representing 62,173 of total number of employees reaching retirement age. 
 - 74% of Pewlett Hackard's employees reaching retirement age are either Senior Engineers or Senior Staff.
-- The mentorship_eligibility.csv indicates that there are 402 Senior Engineers and 281 Senior Staff that can support in the Mentorship Program, which will be crucial knowing that these two Job Titles make up nearly 3/4 of as positions that will require filling due to the "silver tsunami".
-- Based on this analysis, there are no Managers meet eligibility for the Mentorship Program.
+- The <a href="https://github.com/hollyouellette/Pewlett-Hackard-Analysis/blob/main/Data/mentorship_eligibilty.csv">mentorship_eligibility.csv</a> indicates that there are 402 Senior Engineers and 281 Senior Staff that can support in the Mentorship Program, which will be crucial knowing that these two Job Titles make up nearly 3/4 of as positions that will require filling due to the "silver tsunami".
+- Based on this analysis, there are no Managers that meet the eligibility requirements for the Mentorship Program.
 
 ## Summary
 
