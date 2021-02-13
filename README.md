@@ -40,7 +40,9 @@ With this query, for the Manager title we have widened the parameters of employe
 **Second**, I would recommend building out a strategy to address the upcoming retirements and subsequent role vacancies over the next 10 years and beyond.<br/>
 
 <img src="https://github.com/hollyouellette/Pewlett-Hackard-Analysis/blob/main/Analysis/next_ten_yrs_query.png" width=500 align=left>
-These queries completes the following analysis:<br/>
+These queries completes the following analysis:
+
+
    <UL>
    <LI> Isolating the employees who were born between 1956 to 1966 and sorting them by title and birthday.
    <LI> Next, to ensure that each employee is counted only once, the query is set to be distinct on the employee number.
