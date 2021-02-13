@@ -37,7 +37,8 @@ With this query,for the Manager title we have widened the parameters of employee
 
 
 
-**Second**, I would recommend building out a strategy to address the upcoming retirements and subsequent role vacancies over the next 10 years. 
+**Second**, I would recommend building out a strategy to address the upcoming retirements and subsequent role vacancies over the next 10 years.<br/><br/>
+
 <img src="https://github.com/hollyouellette/Pewlett-Hackard-Analysis/blob/main/next_ten_yrs_query.png" width=500 align=left>
 This could be accomplished by using a query to: 
      - Isolate the employees who were born between 1956 to 1966 and sorting them by title and birthday.
