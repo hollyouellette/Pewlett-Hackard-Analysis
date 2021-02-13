@@ -30,21 +30,22 @@ In addition to the analysis that was performed in this assignment, additional qu
 
 <img src="https://github.com/hollyouellette/Pewlett-Hackard-Analysis/blob/main/future_metorship_manager_query.png" width=500 align=left>
 
-With this query,for the Manager title we have widened the parameters of employees eligibility by 5 years. By performing this, Pewlett Hackard's Mentorship Program would include 10 eligible mentors to build their Manager pipeline and successfully future-proof this department, as seen in the table below.<br/><br/><br/>
+With this query,for the Manager title we have widened the parameters of employees eligibility by 5 years. By performing this, Pewlett Hackard's Mentorship Program would include 10 eligible mentors to build their Manager pipeline and successfully future-proof this department, as seen in the table below.<br/><br/><br/><br/>
 
 <img src="https://github.com/hollyouellette/Pewlett-Hackard-Analysis/blob/main/future_mentoryship_eligibility.png" width:800 align:center>
-<br/><br/<br/>
+<br/><br/>
 
 
 
 **Second**, I would recommend building out a strategy to address the upcoming retirements and subsequent role vacancies over the next 10 years and beyond.<br/>
 
 <img src="https://github.com/hollyouellette/Pewlett-Hackard-Analysis/blob/main/next_ten_yrs_query.png" width=500 align=left>
-This query completes the following analysis:
-     - It isolate's the employees who were born between 1956 to 1966 and sorts them by title and birthday.
-     - Next, to ensure that each employee is counted only once, the query is set to be distinct on the employee number.
-     - Fially, a query is written to provide an employee count by title to visualize how many employees each department should be developing a plan to replace due to retirement over the next 10 years. 
-     
+These queries completes the following analysis:
+<UL>
+   <LI> Isolating the employees who were born between 1956 to 1966 and sorts them by title and birthday.
+   <LI> Next, to ensure that each employee is counted only once, the query is set to be distinct on the employee number.
+   <LI> Fially, a query is written to provide an employee count by title to visualize how many employees each department should be developing a plan to replace due to retirement over the next 10 years. 
+</UL>     
  <img src="https://github.com/hollyouellette/Pewlett-Hackard-Analysis/blob/main/unique_upcoming_retirement.png" align=right width=300>
      
     
