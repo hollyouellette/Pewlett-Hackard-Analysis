@@ -10,7 +10,7 @@ The analysis of Pewlett Hackard's employee data yielded the following four major
 
 - The <a href="https://github.com/hollyouellette/Pewlett-Hackard-Analysis/blob/main/Data/retiring_titles.csv">retiring_titles.csv</a> showcases that Packard Hewlett has 78,155 employees nearing retirement age. The vast majority of these employees are in a **Senior, Leader** or **Manager Role**, representing 62,173 of total number of employees reaching retirement age. 
 - 74% of Pewlett Hackard's employees reaching retirement age are either Senior Engineers or Senior Staff.
-- The <a href="https://github.com/hollyouellette/Pewlett-Hackard-Analysis/blob/main/Data/mentorship_eligibilty.csv">mentorship_eligibility.csv</a> indicates that there are 402 Senior Engineers and 281 Senior Staff that can support in the Mentorship Program, which will be crucial knowing that these two Job Titles make up nearly 3/4 of as positions that will require filling due to the "silver tsunami".
+- The <a href="https://github.com/hollyouellette/Pewlett-Hackard-Analysis/blob/main/Data/mentorship_eligibilty.csv">mentorship_eligibility.csv</a> indicates that there are 402 Senior Engineers and 281 Senior Staff that can support in the Mentorship Program, which will be crucial knowing that these two Job Titles make up nearly 3/4 of the positions that will require filling due to the "silver tsunami".
 - Based on this analysis, there are no Managers that meet the eligibility requirements for the Mentorship Program.
 
 ## Summary
@@ -20,7 +20,7 @@ The analysis of Pewlett Hackard's employee data yielded the following four major
    As the "silver tsunami" begins to make an impact, a total of 78,155 roles will need to be filled.
 
 #### Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
-   Yes and no. For the majority of the departments, there are enough qualified, retirement-ready employees to be a part of the Mentorship Program. They will be especially set up for success because the Senior Engineer and Senior Sales titles each have hundreds of employees who are qualified to mentor the several thousand new employees that will require mentorship in their departments. Pewlett Hackard should be concerned, however, that there are no Managers who qualify for the Mentorship Program. This is potential roadblock is addressed in the additional queries below.
+   Yes and no. For the majority of the departments, there are enough qualified, retirement-ready employees to be a part of the Mentorship Program. They will be especially set up for success because the Senior Engineer and Senior Sales titles each have hundreds of employees who are qualified to mentor the several thousand new employees that will require mentorship in their departments. Pewlett Hackard should be concerned, however, that there are no Managers who qualify for the Mentorship Program. This potential roadblock is addressed in the additional queries below.
 
 #### Additional Queries
 
